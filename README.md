@@ -1,6 +1,6 @@
 # API2
 ## API usada para calcular o valor do imóvel através do metro quadrado.
-
+## URL : https://api2-gmanzini.herokuapp.com/swagger/index.html
 
 ### Docker File:
 
@@ -31,4 +31,3 @@ CMD ASPNETCORE_URLS=http://*:$PORT dotnet API2.dll
 
 -heroku container:release web -a api2-gmanzini
 
--https://api2-gmanzini.herokuapp.com/swagger/index.html

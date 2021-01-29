@@ -21,13 +21,13 @@ CMD ASPNETCORE_URLS=http://*:$PORT dotnet API2.dll
 
 - docker build -t api2-gmanzini .
 
--heroku login
+- heroku login
 
--heroku container:login
+- heroku container:login
 
--docker tag api2-gmanzini registry.heroku.com/api2-gmanzini/web
+- docker tag api2-gmanzini registry.heroku.com/api2-gmanzini/web
 
--heroku container:push web -a api2-gmanzini
+- heroku container:push web -a api2-gmanzini
 
--heroku container:release web -a api2-gmanzini
+- heroku container:release web -a api2-gmanzini
 

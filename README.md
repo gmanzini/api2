@@ -17,7 +17,7 @@ CMD ASPNETCORE_URLS=http://*:$PORT dotnet API2.dll
 
 
 
-###Passos para publicação no heroku:
+### Passos para publicação no heroku:
 
 -docker build -t api2-gmanzini .
 

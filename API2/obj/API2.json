@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API2 - Ferramenta para prover o preço do imóvel através da metragem",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Imovel": {
+      "get": {
+        "tags": [
+          "Imovel"
+        ],
+        "parameters": [
+          {
+            "name": "metrosQuadrados",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
